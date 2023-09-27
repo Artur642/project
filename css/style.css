@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+}
+.nike-logo{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    background-color: #012D63;
+}
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.link{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+.list-li{
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.list{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-nike{
+    background-color: black;
+    background-image: url(/imges/nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+.section-button{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    border-radius: 10px;
+    background: #8E32C6;
+    width: 254px;
+    height: 67px;
+    flex-shrink: 0;
+}
+.section-text{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.section-text-2{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.section-text-3{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text{
+    color: #FFF;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
