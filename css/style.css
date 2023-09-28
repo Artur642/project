@@ -1,14 +1,23 @@
+:root{
+    --primary-text-color: #FFF;
+    --background-color: #012D63;
+    --color: #C7C7C7;
+    --background: #8E32C6;
+}
 body{
     margin: 0 auto;
 }
 .nike-logo{
-    width: 100px;
-    height: 60px;
     display: flex;
     align-items: center;
 }
+.header-wrapper{
+    display: flex;
+}
 .header{
-    background-color: #012D63;
+    background-color: var(--background-color);
+    padding-top: 16px;
+    padding-bottom: 17px;
 }
 .container{
     width: 1200px;
@@ -17,7 +26,7 @@ body{
     
 }
 .link{
-    color: #FFF;
+    color: var(--primary-text-color);
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -28,7 +37,7 @@ body{
     justify-content:space-evenly;
 }
 .list-li{
-    color: #C7C7C7;
+    color: var(--color);
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -36,7 +45,7 @@ body{
     line-height: normal;
 }
 .list{
-    color: #FFF;
+    color: var(--primary-text-color);
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -50,10 +59,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
-
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
 .section-button{
-    color: #FFF;
+    color: var(--primary-text-color);
 font-family: Roboto;
 font-size: 24px;
 font-style: normal;
@@ -66,7 +76,7 @@ line-height: normal;
     flex-shrink: 0;
 }
 .section-text{
-    color: #FFF;
+    color: var(--primary-text-color);
 font-family: Playfair Display;
 font-size: 144px;
 font-style: normal;
@@ -74,7 +84,7 @@ font-weight: 400;
 line-height: normal;
 }
 .section-text-2{
-    color: #FFF;
+    color: var(--primary-text-color);
 font-family: Playfair Display;
 font-size: 72px;
 font-style: normal;
@@ -82,7 +92,7 @@ font-weight: 400;
 line-height: normal;
 }
 .section-text-3{
-    color: #FFF;
+    color: var(--primary-text-color);
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
@@ -90,10 +100,39 @@ font-weight: 400;
 line-height: normal;
 }
 .text{
-    color: #FFF;
+    color: var(--primary-text-color);
 font-family: PT Serif;
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.hero{
+    background-image: url(../imges/Group\ 8\ 1.png);
+    height: 606px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+}
+.hero-ul{
+    color: var(--primary-text-color);
+    text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+margin-top: 105px;
+margin-bottom: 105px;
+}
+.hero-premium{
+    background: var(--primary-text-color);
+    width: 1px;
+    height: 346px;
 }
